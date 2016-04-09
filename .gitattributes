@@ -1,0 +1,9 @@
+* text=auto
+
+*.md text
+*.gml text
+*.html text
+
+*.png binary
+*.jpg binary
+*.exe binary
