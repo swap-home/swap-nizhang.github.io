@@ -9,7 +9,15 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </div>
+
+        <!--
+        <div>
+          <span class="post-meta">{% assign words = post.tags | split:&nbsp; %}{% for word in words %}{{ word }} {% endfor %}</span>
+        </div>
+        -->
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -17,6 +25,10 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+
+  <h1 class="project-heading">
+    <a href="{{ 'projects/' | prepend: site.baseurl }}">Projects</a>
+  </h1>
 
   <!--
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

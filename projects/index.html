@@ -1,0 +1,21 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+categories: header
+---
+
+{% assign pages = site.pages | sort:"date" | reverse %}
+{% for page in pages %}
+  {% if page.categories contains 'projects' %}
+    <li>
+      <div>
+        <span class="project-meta">{{ page.date | date: "%b %-d, %Y" }}</span>
+      </div>
+
+      <h2>
+        <a class="project-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      </h2>
+    </li>
+  {% endif %}
+{% endfor %}
