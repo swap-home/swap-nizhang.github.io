@@ -4,6 +4,7 @@ layout: default
 
 <div class="home">
 
+  <!--
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
@@ -13,11 +14,9 @@ layout: default
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         </div>
 
-        <!--
         <div>
           <span class="post-meta">{% assign words = post.tags | split:&nbsp; %}{% for word in words %}{{ word }} {% endfor %}</span>
         </div>
-        -->
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -25,10 +24,37 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+  -->
 
-  <h1 class="project-heading">
-    <a href="{{ 'projects/' | prepend: site.baseurl }}">Projects</a>
-  </h1>
+  <h1 class="project-heading">Projects</h1>
+  <a href="{{ 'projects/' | prepend: site.baseurl }}">Full Project Index</a>
+
+  <ul class="project-list">
+    {% for page in site.pages %}
+      {% if page.categories contains 'projects' and page.categories contains 'pinned' %}
+        <li>
+          <div>
+            <span class="project-meta">Last updated: {{ page.date | date: "%b %-d, %Y" }}</span>
+          </div>
+
+          <div>
+            <span class="project-meta">
+              {% assign words = page.tags | split:&nbsp; %}
+              {% for word in words %}
+                {{ word }}
+              {% endfor %}
+            </span>
+          </div>
+
+          <h2>
+            <a class="project-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          </h2>
+
+          <img src="{{ page.thumbnail }}">
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 
   <!--
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

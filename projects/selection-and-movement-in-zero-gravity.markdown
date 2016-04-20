@@ -2,15 +2,18 @@
 layout: post
 title:  "Selection and Movement in Zero Gravity"
 date:   2016-04-10 01:29:12 -0400
-tags: demo gamemakerstudio selection movement
-categories: projects demo
+tags: RTS selection movement
+categories: projects demo pinned
+demo: ../build/windows/Movement_ZeroG.zip
+github: https://github.com/swaparcher/ZeroG_Movement_Selection
+thumbnail: ../img/screenshots/thumbs/ZeroG.jpg
 ---
 
 {% include icon-github.html username="swaparcher" %} /
-[ZeroG_Movement_Selection](https://github.com/swaparcher/ZeroG_Movement_Selection)
+[ZeroG_Movement_Selection]({{page.github}})
 
 Download a build for Windows (tested on 8.1?)
-[Movement_ZeroG](../build/windows/Movement_ZeroG.exe)
+[Movement_ZeroG]({{page.demo}})
 
 Rockets, and by extension Spaceships typically have large thrusters for acceleration, as well as smaller thrusters for deceleration and turning.
 This demo system demonstrates an implementation of both a selection system and a movement system to simulate conditions in a zero-g environment.

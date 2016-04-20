@@ -2,15 +2,18 @@
 layout: post
 title:  "Dungeons and Procedural Generation"
 date:   2016-04-12 11:11:42 -0400
-tags: demo gamemakerstudio random procedural generation
-categories: projects demo
+tags: random procedural generation dungeon crawler
+categories: projects demo pinned
+demo: ../build/windows/Procedural_Generation.zip
+github: https://github.com/swaparcher/tile_dungeon_generation
+thumbnail: ../img/screenshots/thumbs/TileGen.jpg
 ---
 
 {% include icon-github.html username="swaparcher" %} /
-[Procedural Generation](https://github.com/swaparcher/tile_dungeon_generation)
+[Procedural Generation]({{page.github}})
 
 Download a build for Windows (tested on 8.1?)
-[Procedural Generation](../build/windows/Procedural_Generation.exe)
+[Procedural Generation]({{page.demo}})
 
 As games nowaday grow in ambition, replayability becomes a huge concern for today's persistent games.
 PvP games create replayability through human opponents that make more or less unpredictable choices in-game. To compete, PvE games have been forced into generating content faster than development processes allow. 
