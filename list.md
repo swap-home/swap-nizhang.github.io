@@ -39,7 +39,7 @@ A history of gaming:
 	* Gem TD
 	* Space Command
 18. BioShock 2
-19. Heros of Newerth
+19. Heroes of Newerth
 20. League of Legends
 21. StarCraft 2 - WoL - HotS - LotV - arcade maps
 	* NotD
@@ -66,3 +66,14 @@ A history of gaming:
 41. Darkest Dungeon
 42. Vindictus
 43. Dota 2
+44. XCOM 2
+45. FTL: Faster Than Light
+46. Keep Talking and Nobody Explodes
+47. The Binding of Issac
+48. BioShock Infinite
+49. Counter-Strike: Global Offensive
+50. Castle Crashers
+51. Age of Empires II: HD Edition
+52. Fractured Space
+53. Tom Clancy's The Division
+54. 
