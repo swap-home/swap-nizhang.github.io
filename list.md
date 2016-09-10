@@ -49,7 +49,7 @@ I'd like to sort these at some point, but I'd also like to avoid pigeonholing ga
 22. Guild Wars 2
 23. Minecraft
 24. Team Fortress 2
-25. Hearthstone
+25. Hearthstone: Heros of Warcraft
 26. Heroes of the Storm
 27. Path of Exile
 28. Warframe
@@ -80,8 +80,9 @@ I'd like to sort these at some point, but I'd also like to avoid pigeonholing ga
 53. Tom Clancy's The Division
 54. Sid Meier's Civilization 5
 55. Planetside 2
-56. Warhammer: End Times - Vermintide
-57. Tabletop Simulator
-58. Undertale
-59. Trine 2
-60. Overwatch
+56. Warhammer 40,000: Dawn of War II
+57. Warhammer: End Times - Vermintide
+58. Tabletop Simulator
+59. Undertale
+60. Trine 2
+61. Overwatch
