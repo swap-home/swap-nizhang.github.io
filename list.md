@@ -2,10 +2,12 @@
 layout: page
 title: The List
 permalink: /list/
-categories: 
+categories: header
 ---
 
 A history of gaming:
+
+I'd like to sort these at some point, but I'd also like to avoid pigeonholing games into specific genres, due to the different ways each individual player can experience the game.
 
 1. Red Alert
 2. Richman 3
@@ -76,4 +78,10 @@ A history of gaming:
 51. Age of Empires II: HD Edition
 52. Fractured Space
 53. Tom Clancy's The Division
-54. 
+54. Sid Meier's Civilization 5
+55. Planetside 2
+56. Warhammer: End Times - Vermintide
+57. Tabletop Simulator
+58. Undertale
+59. Trine 2
+60. Overwatch

@@ -12,7 +12,7 @@ thumbnail: ../img/screenshots/thumbs/FLEETCOM.png
 {% include icon-github.html username="swaparcher" %} /
 [FLEETCOM]({{page.github}})
 
-Download a build for Windows (tested on 8.1?)
+Download a build for Windows (tested on 10)
 [FLEETCOM]({{page.demo}})
 
 FLEETCOM refers to the organizational body in control of the fleets of the human race in 
