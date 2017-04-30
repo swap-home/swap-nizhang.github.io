@@ -9,7 +9,7 @@ github: https://github.com/swaparcher/tile_dungeon_generation
 thumbnail: ../img/screenshots/thumbs/TileGen.jpg
 ---
 
-{% include icon-github.html username="swap-nizhang"" %} /
+{% include icon-github.html username="swap-nizhang" %} /
 [Procedural Generation]({{page.github}})
 
 Download a build for Windows (tested on 8.1?)
