@@ -9,7 +9,7 @@ github: https://github.com/swaparcher/ZeroG_Movement_Selection
 thumbnail: ../img/screenshots/thumbs/ZeroG.jpg
 ---
 
-{% include icon-github.html username="swaparcher" %} /
+{% include icon-github.html username="swap-nizhang"" %} /
 [ZeroG_Movement_Selection]({{page.github}})
 
 Download a build for Windows (tested on 8.1?)

@@ -9,7 +9,7 @@ github: https://github.com/swaparcher/FLEETCOM.gmx
 thumbnail: ../img/screenshots/thumbs/FLEETCOM.png
 ---
 
-{% include icon-github.html username="swaparcher" %} /
+{% include icon-github.html username="swap-nizhang" %} /
 [FLEETCOM]({{page.github}})
 
 Download a build for Windows (tested on 10)
