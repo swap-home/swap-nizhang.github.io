@@ -39,7 +39,7 @@ layout: default
 
           <div>
             <span class="project-meta">
-              {% assign words = page.tags | split:&nbsp; %}
+              {% assign words = page.tags | split: ' ' %}
               {% for word in words %}
                 {{ word }}
               {% endfor %}

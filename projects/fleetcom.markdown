@@ -15,6 +15,8 @@ thumbnail: ../img/screenshots/thumbs/FLEETCOM.png
 Download a build for Windows (tested on 10)
 [FLEETCOM]({{page.demo}})
 
+TODO: Needs update to see all the new features
+
 FLEETCOM refers to the organizational body in control of the fleets of the human race in 
 Microsoft's Halo universe. In the Halo universe, humanity's far reaching space colonization creates an
 opportunity for rebel elements to arise, causing havok in systems far from Sol. But as humans fight within their factions, an undiscovered alien menace may change human history.
