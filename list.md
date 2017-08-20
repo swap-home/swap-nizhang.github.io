@@ -2,7 +2,7 @@
 layout: page
 title: The List
 permalink: /list/
-categories: header
+categories: hidden
 ---
 
 A history of gaming:
